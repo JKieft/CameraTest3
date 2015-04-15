@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{10dc1054-4184-404a-a6a1-2a7334081ef1}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{f4a611e1-c1e5-4d0f-8323-b41738510048}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{5ddb20be-f106-4f5e-8e62-cf79c4ba3946}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CameraTest3.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadCapture.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteCapture.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Blobanalyse.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Histogram.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveBorderBlobs.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotate180.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThresholdIsoData.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt">
+      <Filter>Source files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="visionoperator.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

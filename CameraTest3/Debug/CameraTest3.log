@@ -1,0 +1,15 @@
+﻿Build started 15-4-2015 5:12:03.
+     1>Project "C:\Projects\CameraTest3\CameraTest3\CameraTest3.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "C:\Projects\CameraTest3\CameraTest3\CameraTest3.vcxproj" "/solution:C:\Projects\CameraTest3\CameraTest3.sln" "/config:Debug" "/platform:Win32"
+         VisualGDB: Sending 1 updated source file to build machine...
+         VisualGDB: Run "make " in directory "/tmp/VisualGDB/c/Projects/CameraTest3/CameraTest3/Debug" on ubuntu@192.168.0.189 (SSH)
+         Scanning dependencies of target CameraTest3
+         [ 12%] Building CXX object CMakeFiles/CameraTest3.dir/CameraTest3.cpp.o
+         Linking CXX executable CameraTest3
+         [100%] Built target CameraTest3
+     1>Done Building Project "C:\Projects\CameraTest3\CameraTest3\CameraTest3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.61
